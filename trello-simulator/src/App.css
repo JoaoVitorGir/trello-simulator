@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+:root{
+  --color-primaria : #092433;
+  --color-secundaria : #1f3949; 
+  --color-terciaria : #354e5f;
+}
+
+.principal{
+  /* height: 100vh; */
+  background-color: var(--color-secundaria);
+}
+
+.top-menu{
+  height: 8vh;
+  background-color: var(--color-primaria);
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.coluna-cards{
+  text-align: center;
+  border: solid 1px grey;
+  border-radius: .5rem;
+  margin: .1rem;
+}
+
+.box-colunas{
+  display: flex;
+  min-height: 92vh;
+}
+
+.campo-inputs{
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo-coluna{
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.campo-inputs > input, .campo-inputs > select, .campo-inputs > textarea {
+  border: solid 1px grey;
+  border-radius: .2rem;
+  padding: .2rem .3rem;
+}
+
+.card-tarefa{
+  background-color: var(--color-terciaria);
+  border: solid 2px black;
+  border-radius: 0.5rem;
+  margin: .3rem;
+  color: whitesmoke;
+}
+
+.prioridade-card{
+  width:50px; 
+  height:10px;
+  border-radius: 1rem;
+  margin: 0.5rem;
+}
+
+.descricao-card{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  word-wrap: break-word;
+  padding: 0.5rem;
+  text-align: start;
+}
+
+.opcoes-card{
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-acoes-card, .btn-acoes-card-deletar{
+  padding: .1rem .2rem;
+  margin: .5rem;
+  color: white;
+}
+
+.btn-acoes-card-deletar{
+  color: red;
+}
+
+.header-modal-adicionar{
+  background-color: var(--color-primaria);
+  color: white;
+  border-bottom: none;
+}
+
+.footer-modal-adicionar{
+  border-top: none;
+}
+
+.body-modal-adicionar, .footer-modal-adicionar{
+  background-color: var(--color-secundaria);
+  color: white;
+}

@@ -1,5 +1,10 @@
 # trello-simulator
     Desenvolvimento de um app para cadastro de atividades como se fosse um trello para organizar atividades
+
+## alunos envolvidos 
+    João Vitor Girardi
+    Welson Douglas Oliveira Gomes
+
 ## visão inicial do board
 ![Alt text](image.png)
 ## visão com alguns card dispostos no board
